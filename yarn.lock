@@ -2470,6 +2470,11 @@ application-config-path@^0.1.0:
   resolved "https://registry.npmjs.org/application-config-path/-/application-config-path-0.1.1.tgz"
   integrity sha512-zy9cHePtMP0YhwG+CfHm0bgwdnga2X3gZexpdCwEj//dpb+TKajtiC8REEUJUSq6Ab4f9cgNy2l8ObXzCXFkEw==
 
+appwrite@^17.0.1:
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/appwrite/-/appwrite-17.0.1.tgz#ba8813915fa92b93eb52d5c5dc997136a73e9769"
+  integrity sha512-bTLxle4wasY8uQewr/tdANC4AhQ/AkcaPfMd0L9N4tQecQwUVXow2EhlWh98jURBAMn6cyoN/G46G4w3sVkcOQ==
+
 arg@^5.0.2:
   version "5.0.2"
   resolved "https://registry.npmjs.org/arg/-/arg-5.0.2.tgz"
@@ -7977,7 +7982,7 @@ ts-interface-checker@^0.1.9:
   resolved "https://registry.npmjs.org/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz"
   integrity sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==
 
-tslib@^2.0.1, tslib@^2.4.0:
+tslib@^2.0.0, tslib@^2.0.1, tslib@^2.4.0:
   version "2.8.1"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
@@ -8106,6 +8111,13 @@ url-parse@^1.5.3:
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
+
+use-debounced@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/use-debounced/-/use-debounced-1.2.0.tgz#10d479728d997d9a2775625b547d2f992cb0776a"
+  integrity sha512-pdME2mN3exLZ9QHdiEVDIelfuv+A142nxdXHcsECt0ticlL7vpuYKei8gb4+pIvX8XR9jafWg36yMvcHcguVqQ==
+  dependencies:
+    tslib "^2.0.0"
 
 use-latest-callback@^0.2.1:
   version "0.2.3"
