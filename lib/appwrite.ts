@@ -42,6 +42,7 @@ export async function login() {
     try {
         const redirectUri = Linking.createURL("/");
 
+        
         const response = await account.createOAuth2Token(
             OAuthProvider.Google,
             redirectUri,
